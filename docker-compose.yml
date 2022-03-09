@@ -30,7 +30,7 @@ services:
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.10.1
-      container_name: umbracoaccelerator-kibana
+    container_name: umbracoaccelerator-kibana
     restart: unless-stopped
     ports:
       - 5601:5601
